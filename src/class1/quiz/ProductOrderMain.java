@@ -38,7 +38,7 @@ public class ProductOrderMain {
 
 		// 상품 주문 정보와 최종 금액 출력
 		for (ProductOrder order : orders) {
-			
+
 			System.out.println("상품명: " + order.productName + ", 가격: " + order.price + ", 수량: " + order.quantity);
 			totalAmount += (order.price * order.quantity);
 		}
